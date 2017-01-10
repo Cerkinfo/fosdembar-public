@@ -1,4 +1,27 @@
-[
-    ["Bière lalala", 32],
-    ["Sandwich", 42]
-]
+ {
+    "Beers": {
+        "Leffe": 0,
+        "Jupiler": 0,
+        "Chimay": 0
+    },
+    "Drinks": {
+        "Coca": 0,
+        "Fanta": 0
+    },
+    "Snacks": {
+        "Mars": 0,
+        "Twix": 0
+    },
+    "Pastries (french name)": {
+        "Croissant": 0,
+        "Couque au beurre": 0,
+        "Couque aux raisins": 0,
+        "Couque au chocolat": 0
+    },
+    "Sandwiches": {
+        "Club (ham, cheese, salad, mayonaise)": 0,
+        "Cheese (cheese, salad)": 0,
+        "Curry Chicken": 0,
+        "Veggie (salad)": 0
+    }
+ }
