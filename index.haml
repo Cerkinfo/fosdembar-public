@@ -1,0 +1,34 @@
+- EDITION = 2017
+- require './pricelist.rb'
+
+!!!5
+%html
+  %head
+    %meta{charset: "UTF-8"}
+    %title Bar @ FOSDEM #{EDITION}
+  %body
+    %h1 Drink && Eat @ FOSDEM #{EDITION}
+    
+    %h2 Locations
+    %h3 Regular bars
+    Our regular bars offer a selection of fine belgian beers, sodas, juices and coffee. You can also have pastries and snacks all the day, as well as sandwiches starting from 11:30 AM.
+    %h4 Janson gallery
+    Accesible through the H Building/Janson external access, or the middle Janson doors
+    %h4 Campouce
+    In the F Building
+
+    %h3 Water only
+    %h4 K-Building
+    Stay tuned ...
+
+    %h3 Prices
+    All our prices are in euros (&euro;) including taxes.
+    %dl
+      - PRICELIST.each do |name, price|
+        %dt= name
+        %dd #{price} &euro;
+    
+    %h3 Empty bottles
+    Dozens of blue crates are awaiting the empty bottles you got from the bars all over the campus. Please leave there your beer and mate bottles, and use the regular trashes for other empty liquid containers. Please do not hesitate to tweet
+    %a{target: "_blank", href: "https://twitter.com/fosdembar"} @FosdemBar
+    in case you find a full crate somewhere.
