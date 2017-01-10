@@ -1,5 +1,6 @@
 - EDITION = 2017
-- require './pricelist.rb'
+- require 'json'
+- PRICELIST = JSON.parse File.read("pricelist.json")
 
 !!!5
 %html
