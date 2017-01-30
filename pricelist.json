@@ -1,42 +1,51 @@
  {
     "Blond beers": {
-        "Barbar": 2,
-        "Hopus": 2,
-        "Jupiler": 2,
-        "Duvel": 2,
-        "Grimbergen blonde": 2,
-        "Leffe blonde": 2,
-        "Jambe de Bois": 2
+        "Jupiler": 1.5,
+        "Barbar": 2.5,
+        "Hopus": 3,
+        "Duvel": 3,
+        "Grimbergen blonde": 2.5,
+        "Leffe blonde": 2.5,
+        "Jambe de Bois": 3,
+        "Westmalle Triple": 3,
+        "Maredsous Triple": 3
     },
     "Brown beers": {
-        "Chimay Bleue": 2,
-        "Maredsous Triple": 2,
-        "Leffe Brune": 2,
-        "Westmalle Triple": 2
+        "Chimay Bleue": 3,
+        "Leffe Brune": 2.5
     },
     "Fruits and white beers": {
-        "Kriek (Lindemans)": 2,
-        "Blanche de Hoegarden": 2
+        "Kriek Lindemans": 3,
+        "Hoegarden Blanche": 1.5
     },
-
-    "Drinks": {
-        "Coca": 0,
-        "Fanta": 0
+    "Mate": {
+        "Club Mate": 3,
+        "Flora Power": 3
+    },
+    "Soft Drinks": {
+        "Coca Cola": 1,
+        "Coca Cola Light": 1,
+        "Coca Cola Zero": 1,
+        "Fanta": 1,
+        "Sprite": 1,
+        "Ice Tea": 1,
+        "Ice Tea Peach": 1,
+        "Water": 1
     },
     "Snacks": {
-        "Mars": 0,
-        "Twix": 0
+        "Mars": 1,
+        "Twix": 1
     },
     "Pastries (french name)": {
-        "Croissant": 0,
-        "Couque au beurre": 0,
-        "Couque aux raisins": 0,
-        "Couque au chocolat": 0
+        "Croissant": 1,
+        "Couque au beurre": 1,
+        "Couque aux raisins": 1,
+        "Couque au chocolat": 1
     },
     "Sandwiches": {
-        "Club (ham, cheese, salad, mayonaise)": 0,
-        "Cheese (cheese, salad)": 0,
-        "Curry Chicken": 0,
-        "Veggie (salad)": 0
+        "Club (ham, cheese, salad, mayonaise)": 3,
+        "Cheese (cheese, salad)": 3,
+        "Curry Chicken": 3,
+        "Veggie (salad)": 2.50
     }
  }
