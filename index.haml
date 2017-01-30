@@ -6,15 +6,50 @@
 %html
   %head
     %meta{charset: "UTF-8"}
+    %meta{name: "viewport", content: "device-width", "initial-scale" => 0, "shrink-to-fit" => "no"}
     %title Bar @ FOSDEM #{EDITION}
     :sass
       /* I know you love hype */
-      body
-        background-color: pink
+      html
+        font-size: 200%
+      @media screen and (min-width: 480px)
+        html
+          font-size: 100%
   %body
     %h1 Drink && Eat @ FOSDEM #{EDITION}
     
-    %h2 Locations
+    %p.navigator
+      %a{href: "#prices"} Prices
+      |
+      %a{href: "#locations"} Where to find us
+      |
+      %a{href: "#beers"} The beers
+    %hr
+
+    %h2#prices Prices
+    All our prices are in euros (&euro;) including taxes.
+    - PRICELIST.each do |section, items|
+      %h4= section
+      %ul
+        - items.each do |name, price|
+          %li
+            %a{href: "##{name.downcase.gsub ' ', '_'}"}= name
+            #{price} €
+    
+    %h3 Empty bottles
+    Dozens of blue crates are awaiting the empty bottles you got from the bars all over the campus. Please leave there your beer and mate bottles, and use the regular trashes for other empty liquid containers. Please do not hesitate to tweet
+    %a{target: "_blank", href: "https://twitter.com/fosdembar"} @FosdemBar
+    in case you find a full crate somewhere.
+
+    %p.navigator
+      %a{href: "#prices"} Prices
+      |
+      %a{href: "#locations"} Where to find us
+      |
+      %a{href: "#beers"} The beers
+    %hr
+
+    %h2#locations Locations
     %h3 Regular bars
     Our regular bars offer a selection of fine belgian beers, sodas, juices and coffee. You can also have pastries and snacks all the day, as well as sandwiches starting from 11:30 AM.
     
@@ -34,23 +69,15 @@
     %a{href: "geo:50.814773,4.381605", target: "_blank"}
       %img{alt: "K building map", src: "maps/bar-k.png"}
 
-    %h3 Prices
-    All our prices are in euros (&euro;) including taxes.
-    - PRICELIST.each do |section, items|
-      %h4= section
-      %dl
-        - items.each do |name, price|
-          %dt
-            %a{href: "##{name.downcase.gsub ' ', '_'}"}= name
-          %dd #{price} &euro;
-    
-    %h3 Empty bottles
-    Dozens of blue crates are awaiting the empty bottles you got from the bars all over the campus. Please leave there your beer and mate bottles, and use the regular trashes for other empty liquid containers. Please do not hesitate to tweet
-    %a{target: "_blank", href: "https://twitter.com/fosdembar"} @FosdemBar
-    in case you find a full crate somewhere.
-
+    %p.navigator
+      %a{href: "#prices"} Prices
+      |
+      %a{href: "#locations"} Where to find us
+      |
+      %a{href: "#beers"} The beers
     %hr
-    %h1 Our fine belgian beers
+
+    %h1#beers Our fine belgian beers
     Wether this is your first time in Belgium or not, there are always plenty of beers to discover. We made a representative selection of them, and provide you with informations on what to expect in the bottle.
 
     %h2 Blond beers
