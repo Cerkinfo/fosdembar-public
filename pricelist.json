@@ -1,9 +1,24 @@
  {
-    "Beers": {
-        "Leffe": 0,
-        "Jupiler": 0,
-        "Chimay": 0
+    "Blond beers": {
+        "Barbar": 2,
+        "Hopus": 2,
+        "Jupiler": 2,
+        "Duvel": 2,
+        "Grimbergen blonde": 2,
+        "Leffe blonde": 2,
+        "Jambe de Bois": 2
     },
+    "Brown beers": {
+        "Chimay Bleue": 2,
+        "Maredsous Triple": 2,
+        "Leffe Brune": 2,
+        "Westmalle Triple": 2
+    },
+    "Fruits and white beers": {
+        "Kriek (Lindemans)": 2,
+        "Blanche de Hoegarden": 2
+    },
+
     "Drinks": {
         "Coca": 0,
         "Fanta": 0

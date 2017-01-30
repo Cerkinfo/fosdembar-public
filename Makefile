@@ -1,4 +1,4 @@
 all: index.html
 
-%.html: %.haml
+%.html: %.haml pricelist.json
 	haml $< > $@

@@ -40,10 +40,53 @@
       %h4= section
       %dl
         - items.each do |name, price|
-          %dt= name
+          %dt
+            %a{href: "##{name.downcase.gsub ' ', '_'}"}= name
           %dd #{price} &euro;
     
     %h3 Empty bottles
     Dozens of blue crates are awaiting the empty bottles you got from the bars all over the campus. Please leave there your beer and mate bottles, and use the regular trashes for other empty liquid containers. Please do not hesitate to tweet
     %a{target: "_blank", href: "https://twitter.com/fosdembar"} @FosdemBar
     in case you find a full crate somewhere.
+
+    %hr
+    %h1 Our fine belgian beers
+    Wether this is your first time in Belgium or not, there are always plenty of beers to discover. We made a slection of the most representative of them, and provide you with informations on what to expect in the bottle.
+
+    %h2 Blond beers
+    %h3#jupiler Jupiler
+    The Jupiler is one of 
+    %h3#barbar Barbar
+    %img{height: 200, alt: "Barbar", src: "beers/barbar.png"}
+    %p
+      The Barbar is a deep blond with a creamy texture and powerful aroma made by the
+      %a{href: "http://www.brasserielefebvre.be/", target: "_blank"} Brasserie Lefebvre.
+      For more sweetness, there is a subtle scent of honey that makes this beer unique
+
+    %h3#hopus Hopus
+    %img{height: 200, alt: "Barbar", src: "beers/hopus.png"}
+    %p
+      The Hopus is a blonde beer with pleasing copper reflections and a generous head, also made by the
+      %a{href: "http://www.brasserielefebvre.be/", target: "_blank"} Brasserie Lefebvre.
+      This beer is derived from a secret recipe for one of the brewers wedding !
+
+    %h3#duvel Duvel
+    %h3#grimbergen_blonde Grimbergen blonde
+    %h3#leffe_blonde Leffe blonde
+    %h3#jambe_de_bois Jambe de Bois
+
+    %h2 Brown beers
+    %h3#chimay_bleue Chimay Bleue
+    %h3#maredsous_triple Maredsous Triple
+    %h3#leffe_brune Leffe Brune
+    %h3#westmalle_triple Westmalle Triple
+
+    %h2 Fruits and white beers
+    %h3#kriek_lindemans Kriek (Lindemans)
+    %h3#blanche_hoegarden Blanche de Hoegarden
+
+
+    %footer
+      %a{href:"http://cerkinfo.be/", target: "_blank"}
+        %img{alt: "cerkinfo-logo", src: "http://cerkinfo.be/static/img/nav_brand.png"}
+      %em FOSDEMBAR is ran by Cercle Informatique de l'ULB
