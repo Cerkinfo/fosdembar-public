@@ -1,7 +1,7 @@
  {
     "Blond beers": {
-        "Jupiler": 1.5,
-        "Barbar": 2.5,
+        "Jupiler": 2,
+        "Barbar": 3,
         "Hopus": 3,
         "Duvel": 3,
         "Grimbergen blonde": 2.5,
@@ -16,20 +16,20 @@
     },
     "Fruits and white beers": {
         "Kriek Lindemans": 3,
-        "Hoegarden Blanche": 1.5
+        "Hoegarden Blanche": 2
     },
     "Mate": {
         "Club Mate": 3,
         "Flora Power": 3
     },
     "Soft Drinks": {
-        "Coca Cola": 1,
-        "Coca Cola Light": 1,
-        "Coca Cola Zero": 1,
-        "Fanta": 1,
-        "Sprite": 1,
-        "Ice Tea": 1,
-        "Ice Tea Peach": 1,
+        "Coca Cola": 1.50,
+        "Coca Cola Light": 1.50,
+        "Coca Cola Zero": 1.50,
+        "Fanta": 1.50,
+        "Sprite": 1.50,
+        "Ice Tea": 1.50,
+        "Ice Tea Peach": 1.50,
         "Water": 1
     },
     "Snacks": {
