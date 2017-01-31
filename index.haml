@@ -6,15 +6,12 @@
 %html
   %head
     %meta{charset: "UTF-8"}
-    %meta{name: "viewport", content: "device-width", "initial-scale" => 0, "shrink-to-fit" => "no"}
     %title Bar @ FOSDEM #{EDITION}
+    %link{rel: "stylesheet", href:"normalize.css"}
+    %link{rel: "stylesheet", href:"milligram.min.css"}
     :sass
-      /* I know you love hype */
-      html
-        font-size: 200%
-      @media screen and (min-width: 480px)
-        html
-          font-size: 100%
+      body
+        padding-left: 10px
   %body
     %h1 Drink && Eat @ FOSDEM #{EDITION}
     
