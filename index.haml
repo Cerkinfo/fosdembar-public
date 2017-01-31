@@ -41,8 +41,8 @@
                   %a.collection-item{href: "##{item['name'].downcase.gsub ' ', '_'}"}
                     = item['name']
                     %div.secondary-content
-                      = item['price']
-                    €
+                      #{item['price']}
+                      €
     
         %div.row
           %p.flow-text
