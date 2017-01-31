@@ -7,161 +7,121 @@
   %head
     %meta{charset: "UTF-8"}
     %title Bar @ FOSDEM #{EDITION}
-    %link{rel: "stylesheet", href:"normalize.css"}
-    %link{rel: "stylesheet", href:"milligram.min.css"}
-    :sass
-      body
-        padding-left: 10px
+    %link{rel:"stylesheet", href:"http://fonts.googleapis.com/icon?family=Material+Icons"}
+    %link{rel:"stylesheet", href:"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css", media:"screen,projection"}
+    %link{rel:"icon", type:"image/png", href:"http://cerkinfo.be/static/img/nav_brand.png"}
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
   %body
-    %h1 Drink && Eat @ FOSDEM #{EDITION}
+    %div.navbar-fixed
+      %nav
+        %div.nav-wrapper.deep-purple
+          %a.brand-logo{href:'#'}
+            %img.responsive-img{alt: "cerkinfo-logo", src: "http://cerkinfo.be/static/img/nav_brand.png", style: "height: 58px"}
+          %ul#nav-mobile.right.hide-on-med-and-down
+            %li
+              %a{href:"#prices"} Prices
+            %li  
+              %a{href:"#locations"} Where to find us
+            %li
+              %a{href:"#beers"} The beers
+    %div.container
+      %h1 Drink && Eat @ FOSDEM #{EDITION}
+      %div.section#prices
+        %div.row
+          %h2 Prices
+          %p.flow-text
+            All our prices are in euros (&euro;) including taxes.
+        - PRICELIST.each_slice(3) do |r|
+          %div.row
+            - r.each do |section|
+              %div.collection.with-header.col.l4.s12.z-depth-3
+                %div.collection-header
+                  %h4= section['category']
+                - section['content'].each do |item|
+                  %a.collection-item{href: "##{item['name'].downcase.gsub ' ', '_'}"}
+                    = item['name']
+                    %div.secondary-content
+                      = item['price']
+                    €
     
-    %p.navigator
-      %a{href: "#prices"} Prices
-      |
-      %a{href: "#locations"} Where to find us
-      |
-      %a{href: "#beers"} The beers
-    %hr
+        %div.row
+          %p.flow-text
+            You can also download a
+            %a{href: "menu.pdf", target: "_blank"} printable version
+            of our prices
+        %div.row
+          %h3 Empty bottles
+          %p.flow-text
+            Dozens of blue crates are awaiting the empty bottles you got from the bars all over the campus. Please leave there your beer and mate bottles, and use the regular trashes for other empty liquid containers. Please do not hesitate to tweet
+            %a{target: "_blank", href: "https://twitter.com/fosdembar"} @FosdemBar
+            in case you find a full crate somewhere.
+      %div.divider
+      %div.section#locations
+        %div.row
+          %h2 Locations
+          %h3 Regular bars
+          %p.flow-text
+            Our regular bars offer a selection of fine belgian beers, sodas, juices and coffee. You can also have pastries and snacks all the day, as well as sandwiches starting from 11:30 AM.
+        %div.row
+          %div.col.l6.m12
+            %h4 Janson gallery
+            %p.flow-text
+              Accesible through the H Building/Janson external access, or the doors in the auditorium at mid-height
+            %a{href: "geo:50.813186,4.379594", target: "_blank"}
+            %img{width:450, alt: "Janson map", src: "maps/bar-janson.png"}
 
-    %h2#prices Prices
-    All our prices are in euros (&euro;) including taxes.
-    - PRICELIST.each do |section|
-      %h4= section['category']
-      %ul
-        - section['content'].each do |item|
-          %li
-            %a{href: "##{item['name'].downcase.gsub ' ', '_'}"}= item['name']
-            #{item['price']} €
-    
-    %p
-      You can also download a
-      %a{href: "menu.pdf", target: "_blank"} printable version
-      of our prices
+          %div.col.l6.m12
+            %h4 Campouce
+            %p.flow-text
+              Inside the F Building, in the middle of the campus
+            %a{href: "geo:50.813637,4.382390", target: "_blank"}
+            %img{width:450, alt: "Campouce map", src: "maps/bar-campouce.png"}
+        %div.row
+          %h3 Water only
+          %h4 K-Building
+        %div.row
+          %div.col.l6.m12 
+            %p.flow-text
+              Stay tuned ...
+            %a{href: "geo:50.814773,4.381605", target: "_blank"}
+              %img{width:450, alt: "K building map", src: "maps/bar-k.png"}
+      %div.divider
+      %div.section#beers
+        %div.row
+          %h2 Our fine belgian beers
+          %p.flow-text
+            Wether this is your first time in Belgium or not, there are always plenty of beers to discover. We made a representative selection of them, and provide you with informations on what to expect in the bottle.
+          - PRICELIST.each do |section|
+            - if section['expand']
+              %div.row
+                %h2 #{section['category']}
+                - section['content'].each_slice(3) do |r|
+                  %div.row
+                    - r.each do |item|
+                      %div.card.col.l4.m6.s12.z-depth-3{id: "#{item['name'].downcase.gsub ' ', '_'}"}
+                        %div.card-image.waves-effect.waves-block.waves-light
+                          %img.responsive-img.activator{alt: "#{item['name']}", src: "beers/#{item['name'].downcase.gsub ' ', '_'}.png"}
+                        %div.card-content
+                          %span.card-title.activator.grey-text.text-darken-4
+                            = item['name']
+                            \ (#{item['alcool']}°)
+                            %i.material-icons.right
+                              more_vert
+                        %div.card-reveal
+                          %span.card-title.grey-text.text-darken-4
+                            = item['name']
+                            \ (#{item['alcool']}°)
+                            %i.material-icons.right
+                              close
+                          %p.flow-text
+                            #{item['description']}
+    %footer.page-footer.deep-purple
+      %div.footer-copyright
+        %div.container
+          %p.flow-text
+            %a{href:"http://cerkinfo.be/", target: "_blank"}
+              %img{alt: "cerkinfo-logo", src: "http://cerkinfo.be/static/img/nav_brand.png"}
+            %em FOSDEMBAR is ran by Cercle Informatique de l'ULB
 
-    %h3 Empty bottles
-    Dozens of blue crates are awaiting the empty bottles you got from the bars all over the campus. Please leave there your beer and mate bottles, and use the regular trashes for other empty liquid containers. Please do not hesitate to tweet
-    %a{target: "_blank", href: "https://twitter.com/fosdembar"} @FosdemBar
-    in case you find a full crate somewhere.
-
-    %p.navigator
-      %a{href: "#prices"} Prices
-      |
-      %a{href: "#locations"} Where to find us
-      |
-      %a{href: "#beers"} The beers
-    %hr
-
-    %h2#locations Locations
-    %h3 Regular bars
-    Our regular bars offer a selection of fine belgian beers, sodas, juices and coffee. You can also have pastries and snacks all the day, as well as sandwiches starting from 11:30 AM.
-    
-    %h4 Janson gallery
-    %p Accesible through the H Building/Janson external access, or the doors in the auditorium at mid-height
-    %a{href: "geo:50.813186,4.379594", target: "_blank"}
-      %img{width:450, alt: "Janson map", src: "maps/bar-janson.png"}
-    
-    %h4 Campouce
-    %p Inside the F Building, in the middle of the campus
-    %a{href: "geo:50.813637,4.382390", target: "_blank"}
-      %img{width:450, alt: "Campouce map", src: "maps/bar-campouce.png"}
-    
-    %h3 Water only
-    %h4 K-Building
-    %p Stay tuned ...
-    %a{href: "geo:50.814773,4.381605", target: "_blank"}
-      %img{width:450, alt: "K building map", src: "maps/bar-k.png"}
-
-    %p.navigator
-      %a{href: "#prices"} Prices
-      |
-      %a{href: "#locations"} Where to find us
-      |
-      %a{href: "#beers"} The beers
-    %hr
-
-    %h1#beers Our fine belgian beers
-    Wether this is your first time in Belgium or not, there are always plenty of beers to discover. We made a representative selection of them, and provide you with informations on what to expect in the bottle.
-
-    %h2 Blond beers
-    %h3#jupiler Jupiler (5.2°)
-    %img{height: 200, alt: "Jupiler", src: "beers/jupiler.png"}
-    %p
-      The Jupiler is one of the most popular beer in Belgium, and is the typical pils you would find in the bar next door. It is made in Jupille (near Liège), hence its name.
-
-    %h3#leffe_blonde Leffe blonde (6.6°)
-    %img{height: 200, alt: "Leffe blonde", src: "beers/leffe_blond.png"}
-    %p
-      Leffe is a well-known bittersweet blond abbey beer
-
-    %h3#grimbergen_blonde Grimbergen blonde (6.7°)
-    %img{height: 200, alt: "Grimbergen", src: "beers/grimbergen.png"}
-    %p
-      The Grimbergen is an blond beer, with tan reflections and recognized as a belgian abbey beer. It has a sweet and light fruity aroma.
-
-    %h3#jambe_de_bois Jambe de Bois (8°)
-    %img{height: 200, alt: "JdB", src: "beers/jdb.png"}
-    %p
-      The Jambe de Bois (litteraly: Wooden Leg) is a copper-colored bitter blond beer from the young 
-      %b artisanal Brussels brewery
-      %a{href: "http://brasseriedelasenne.be", target: "_blank"} Brasserie de La Senne.
-      It is made from malt and a subtle blend of old varieties of aromatic hops and has an opiniated taste which makes the brewery signature.
-
-    %h3#barbar Barbãr (8°)
-    %img{height: 200, alt: "Barbar", src: "beers/barbar.png"}
-    %p
-      The Barbar is a deep blond with a creamy texture and powerful aroma made by the
-      %a{href: "http://www.brasserielefebvre.be/", target: "_blank"} Brasserie Lefebvre.
-      For more sweetness, there is a subtle scent of honey that makes this beer unique
-
-    %h3#hopus Hopus (8.3°)
-    %img{height: 200, alt: "Hopus", src: "beers/hopus.png"}
-    %p
-      The Hopus is a blonde beer with pleasing copper reflections and a generous head, also made by the
-      %a{href: "http://www.brasserielefebvre.be/", target: "_blank"} Brasserie Lefebvre.
-      This beer is derived from a secret recipe for one of the brewers wedding !
-
-    %h3#duvel Duvel (8.5°)
-    %img{height: 200, alt: "Duvel", src: "beers/duvel.png"}
-    %p
-      The Duvel is a refreshing bitter blond beer with a hoppy taste and a high alcool degree.
-
-    %h3#westmalle_triple Westmalle Tripel (9.5°)
-    %img{height: 200, alt: "Westmalle", src: "beers/westmalle.jpg"}
-    %img{height: 100, alt: "Trappist product", src: "beers/trappist.gif"}
-    %p
-      Westmalle Tripel is a golden yellow abbey beer, fermented 3 times. It has a powerful creamy aroma with a light hop and fruity scent with a unique aftertaste. The beer is still made by Westmalle Abbey's monks, which incomes is dedicated to monastic livelihood; which makes this beer one of the only 6 trappist beers in Belgium !
-
-    %h3#maredsous_triple Maredsous Triple (10°)
-    %img{height: 200, alt: "Maredsous", src: "beers/maredsous.jpg"}
-    %p
-      Maredsous is an abbey beer, with an oranged blond robe. It has a strong malted taste, with spicy notes.
-
-    %h2 Brown beers
-    %h3#leffe_brune Leffe Brune (6.5°)
-    %img{height: 200, alt: "Leffe blonde", src: "beers/leffe_brune.png"}
-    %p
-      Leffe is a well-known sweet brown beer made with torrefied malt.
-
-    %h3#chimay_bleue Chimay Bleue (9°)
-    %img{height: 200, alt: "Chimay bleue", src: "beers/chimay.png"}
-    %img{height: 100, alt: "Trappist product", src: "beers/trappist.gif"}
-    %p
-      Chimay Bleue is a dark trappist beer, with a very sweet taste, close to caramel or chocolate. Once bottled, it maturates very well over years.
-
-    %h2 Fruits and white beers
-    %h3#kriek_lindemans Kriek Lindemans (3.5°)
-    %img{height: 200, alt: "Kriek Lindemans", src: "beers/kriek.png"}
-    %p
-      The kriek is a typical fruity beer, made from lambic and cherries. The Lindemans is also pasteurised, and results in a very light, sweet and refreshing beer.
-
-
-    %h3#blanche_hoegarden Blanche de Hoegarden (4.9°)
-    %img{height: 200, alt: "Hoegaarden", src: "beers/hoegaarden.jpg"}
-    %p
-      The Hoegaarden is the most famous white beer in and outside of Belgium. It is a sweet and refreshing beer, brewed with coriander and lemon which makes it even more refreshing.
-
-    %footer
-      %hr
-      %a{href:"http://cerkinfo.be/", target: "_blank"}
-        %img{alt: "cerkinfo-logo", src: "http://cerkinfo.be/static/img/nav_brand.png"}
-      %em FOSDEMBAR is ran by Cercle Informatique de l'ULB
+  %script(src="https://code.jquery.com/jquery-2.1.1.min.js")
+  %script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js")
