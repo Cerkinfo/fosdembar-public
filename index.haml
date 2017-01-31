@@ -31,17 +31,18 @@
           %h2 Prices
           %p.flow-text
             All our prices are in euros (&euro;) including taxes.
-        %div.row    
-          - PRICELIST.each do |section|
-            %div.collection.with-header.col.l4.m6.s12.z-depth-3
-              %div.collection-header
-                %h4= section['category']
-              - section['content'].each do |item|
-                %a.collection-item{href: "##{item['name'].downcase.gsub ' ', '_'}"}
-                  = item['name']
-                  %div.secondary-content
-                    = item['price']
-                  €
+        - PRICELIST.each_slice(3) do |r|
+          %div.row
+            - r.each do |section|
+              %div.collection.with-header.col.l4.s12.z-depth-3
+                %div.collection-header
+                  %h4= section['category']
+                - section['content'].each do |item|
+                  %a.collection-item{href: "##{item['name'].downcase.gsub ' ', '_'}"}
+                    = item['name']
+                    %div.secondary-content
+                      = item['price']
+                    €
     
         %div.row
           %p.flow-text
@@ -94,24 +95,26 @@
             - if section['expand']
               %div.row
                 %h2 #{section['category']}
-                - section['content'].each do |item|
-                  %div.card.col.l4.m6.s12.z-depth-3{id: "#{item['name'].downcase.gsub ' ', '_'}"}
-                    %div.card-image.waves-effect.waves-block.waves-light
-                      %img.responsive-img.activator{alt: "#{item['name']}", src: "beers/#{item['name'].downcase.gsub ' ', '_'}.png"}
-                    %div.card-content
-                      %span.card-title.activator.grey-text.text-darken-4
-                        = item['name']
-                        \ (#{item['alcool']}°)
-                        %i.material-icons.right
-                          more_vert
-                    %div.card-reveal
-                      %span.card-title.grey-text.text-darken-4
-                        = item['name']
-                        \ (#{item['alcool']}°)
-                        %i.material-icons.right
-                          close
-                      %p.flow-text
-                        #{item['description']}
+                - section['content'].each_slice(3) do |r|
+                  %div.row
+                    - r.each do |item|
+                      %div.card.col.l4.m6.s12.z-depth-3{id: "#{item['name'].downcase.gsub ' ', '_'}"}
+                        %div.card-image.waves-effect.waves-block.waves-light
+                          %img.responsive-img.activator{alt: "#{item['name']}", src: "beers/#{item['name'].downcase.gsub ' ', '_'}.png"}
+                        %div.card-content
+                          %span.card-title.activator.grey-text.text-darken-4
+                            = item['name']
+                            \ (#{item['alcool']}°)
+                            %i.material-icons.right
+                              more_vert
+                        %div.card-reveal
+                          %span.card-title.grey-text.text-darken-4
+                            = item['name']
+                            \ (#{item['alcool']}°)
+                            %i.material-icons.right
+                              close
+                          %p.flow-text
+                            #{item['description']}
     %footer.page-footer.deep-purple
       %div.footer-copyright
         %div.container
