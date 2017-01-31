@@ -1,51 +1,75 @@
- {
-    "Blond beers": {
-        "Jupiler": 2,
-        "Barbar": 3,
-        "Hopus": 3,
-        "Duvel": 3,
-        "Grimbergen blonde": 2.5,
-        "Leffe blonde": 2.5,
-        "Jambe de Bois": 3,
-        "Westmalle Triple": 3,
-        "Maredsous Triple": 3
+[
+    {
+        "category": "Blond beers",
+        "content": [
+            {"name": "Jupiler", "price": 2},
+            {"name": "Barbar", "price": 3},
+            {"name": "Hopus", "price": 3},
+            {"name": "Duvel", "price": 3},
+            {"name": "Grimbergen blonde", "price": 2.5},
+            {"name": "Leffe blonde", "price": 2.5},
+            {"name": "Jambe de Bois", "price": 3},
+            {"name": "Westmalle Triple", "price": 3},
+            {"name": "Maredsous Triple", "price": 3}
+        ]
     },
-    "Brown beers": {
-        "Chimay Bleue": 3,
-        "Leffe Brune": 2.5
+    {
+        "category": "Brown beers",
+        "content": [
+            {"name": "Chimay Bleue", "price": 3},
+            {"name": "Leffe Brune", "price": 2.5}
+        ]
     },
-    "Fruits and white beers": {
-        "Kriek Lindemans": 3,
-        "Hoegarden Blanche": 2
+    {
+        "category": "Fruits and white beers",
+        "content": [
+            {"name": "Kriek Lindemans", "price": 3},
+            {"name": "Hoegarden Blanche", "price": 2}
+        ]
     },
-    "Mate": {
-        "Club Mate": 3,
-        "Flora Power": 3
+    {
+        "category": "Mate",
+        "content": [
+            {"name": "Club Mate", "price": 3},
+            {"name": "Flora Power", "price": 3}
+        ]
     },
-    "Soft Drinks": {
-        "Coca Cola": 1.50,
-        "Coca Cola Light": 1.50,
-        "Coca Cola Zero": 1.50,
-        "Fanta": 1.50,
-        "Sprite": 1.50,
-        "Ice Tea": 1.50,
-        "Ice Tea Peach": 1.50,
-        "Water": 1
+    {
+        "category": "Soft Drinks",
+        "content": [
+            {"name": "Coca Cola", "price": 1.50},
+            {"name": "Coca Cola Light", "price": 1.50},
+            {"name": "Coca Cola Zero", "price": 1.50},
+            {"name": "Fanta", "price": 1.50},
+            {"name": "Sprite", "price": 1.50},
+            {"name": "Ice Tea", "price": 1.50},
+            {"name": "Ice Tea Peach", "price": 1.50},
+            {"name": "Water", "price": 1}
+        ]
     },
-    "Snacks": {
-        "Mars": 1,
-        "Twix": 1
+    {
+        "category": "Snacks",
+        "content": [
+            {"name": "Mars", "price": 1},
+            {"name": "Twix", "price": 1}
+        ]
     },
-    "Pastries (french name)": {
-        "Croissant": 1,
-        "Couque au beurre": 1,
-        "Couque aux raisins": 1,
-        "Couque au chocolat": 1
+    {
+        "category": "Pastries (french name)",
+        "content": [
+            {"name": "Croissant", "price": 1},
+            {"name": "Couque au beurre", "price": 1},
+            {"name": "Couque aux raisins", "price": 1},
+            {"name": "Couque au chocolat", "price": 1}
+        ]
     },
-    "Sandwiches": {
-        "Club (ham, cheese, salad, mayonaise)": 3,
-        "Cheese (cheese, salad)": 3,
-        "Curry Chicken": 3,
-        "Veggie (salad)": 2.50
+    {
+        "category": "Sandwiches",
+        "content": [
+            {"name": "Club (ham, cheese, salad)", "price": 3},
+            {"name": "Cheese (cheese, salad)", "price": 3},
+            {"name": "Curry Chicken", "price": 3},
+            {"name": "Veggie (salad)", "price": 2.50}
+        ]
     }
- }
+]

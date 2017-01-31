@@ -28,13 +28,13 @@
 
     %h2#prices Prices
     All our prices are in euros (&euro;) including taxes.
-    - PRICELIST.each do |section, items|
-      %h4= section
+    - PRICELIST.each do |section|
+      %h4= section['category']
       %ul
-        - items.each do |name, price|
+        - section['content'].each do |item|
           %li
-            %a{href: "##{name.downcase.gsub ' ', '_'}"}= name
-            #{price} €
+            %a{href: "##{item['name'].downcase.gsub ' ', '_'}"}= item['name']
+            #{item['price']} €
     
     %h3 Empty bottles
     Dozens of blue crates are awaiting the empty bottles you got from the bars all over the campus. Please leave there your beer and mate bottles, and use the regular trashes for other empty liquid containers. Please do not hesitate to tweet
@@ -56,18 +56,18 @@
     %h4 Janson gallery
     %p Accesible through the H Building/Janson external access, or the doors in the auditorium at mid-height
     %a{href: "geo:50.813186,4.379594", target: "_blank"}
-      %img{alt: "Janson map", src: "maps/bar-janson.png"}
+      %img{width:450, alt: "Janson map", src: "maps/bar-janson.png"}
     
     %h4 Campouce
     %p Inside the F Building, in the middle of the campus
     %a{href: "geo:50.813637,4.382390", target: "_blank"}
-      %img{alt: "Campouce map", src: "maps/bar-campouce.png"}
+      %img{width:450, alt: "Campouce map", src: "maps/bar-campouce.png"}
     
     %h3 Water only
     %h4 K-Building
     %p Stay tuned ...
     %a{href: "geo:50.814773,4.381605", target: "_blank"}
-      %img{alt: "K building map", src: "maps/bar-k.png"}
+      %img{width:450, alt: "K building map", src: "maps/bar-k.png"}
 
     %p.navigator
       %a{href: "#prices"} Prices
