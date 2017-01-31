@@ -33,6 +33,11 @@
             %a{href: "##{item['name'].downcase.gsub ' ', '_'}"}= item['name']
             #{item['price']} €
     
+    %p
+      You can also download a
+      %a{href: "menu.pdf", target: "_blank"} printable version
+      of our prices
+
     %h3 Empty bottles
     Dozens of blue crates are awaiting the empty bottles you got from the bars all over the campus. Please leave there your beer and mate bottles, and use the regular trashes for other empty liquid containers. Please do not hesitate to tweet
     %a{target: "_blank", href: "https://twitter.com/fosdembar"} @FosdemBar
