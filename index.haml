@@ -98,9 +98,9 @@
                 - section['content'].each_slice(3) do |r|
                   %div.row
                     - r.each do |item|
-                      %div.card.col.l4.m6.s12.z-depth-3{id: "#{item['name'].downcase.gsub ' ', '_'}"}
+                      %div.card.small.col.l4.m6.s12.z-depth-3{id: "#{item['name'].downcase.gsub ' ', '_'}"}
                         %div.card-image.waves-effect.waves-block.waves-light
-                          %img.responsive-img.activator{alt: "#{item['name']}", src: "beers/#{item['name'].downcase.gsub ' ', '_'}.png"}
+                          %img.responsive-img.activator{style: "height: 200px; width:auto;", alt: "#{item['name']}", src: "beers/#{item['name'].downcase.gsub ' ', '_'}.png"}
                         %div.card-content
                           %span.card-title.activator.grey-text.text-darken-4
                             = item['name']
