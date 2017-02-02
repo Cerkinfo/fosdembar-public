@@ -4,11 +4,11 @@
         "expand": true,
         "content": [
             {"name": "Jupiler", "price": 2, "alcool": 5.2, "description": "The Jupiler is one of the most popular beer in Belgium, and is the typical pils you would find in the bar next door. It is made in Jupille (near Liège), hence its name."},
-            {"name": "Barbar", "price": 3, "alcool": 8, "description": "The Barbar is a deep blond with a creamy texture and powerful aroma made by the <a href=\"http://www.brasserielefebvre.be/\">Brasserie Lefebvre</a>. For more sweetness, there is a subtle scent of honey that makes this beer unique"},
-            {"name": "Hopus", "price": 3, "alcool": 8.3, "description": "The Hopus is a blonde beer with pleasing copper reflections and a generous head, also made by the <a href=\"http://www.brasserielefebvre.be/\">Brasserie Lefebvre</a>. This beer is derived from a secret recipe for one of the brewers wedding !"},
+            {"name": "Barbar", "price": 3.5, "alcool": 8, "description": "The Barbar is a deep blond with a creamy texture and powerful aroma made by the <a href=\"http://www.brasserielefebvre.be/\">Brasserie Lefebvre</a>. For more sweetness, there is a subtle scent of honey that makes this beer unique"},
+            {"name": "Hopus", "price": 3.5, "alcool": 8.3, "description": "The Hopus is a blonde beer with pleasing copper reflections and a generous head, also made by the <a href=\"http://www.brasserielefebvre.be/\">Brasserie Lefebvre</a>. This beer is derived from a secret recipe for one of the brewers wedding !"},
             {"name": "Duvel", "price": 3, "alcool": 8.5, "description": "The Duvel is a refreshing bitter blond beer with a hoppy taste and a high alcool degree."},
             {"name": "Grimbergen blonde", "price": 2.5, "alcool": 6.7, "description": "The Grimbergen is an blond beer, with tan reflections and recognized as a belgian abbey beer. It has a sweet and light fruity aroma."},
-            {"name": "Leffe blonde", "price": 2.5, "alcool": 6.6, "description": "Leffe is a well-known bittersweet blond abbey beer"},
+            {"name": "Leffe blonde", "price": 3, "alcool": 6.6, "description": "Leffe is a well-known bittersweet blond abbey beer"},
             {"name": "Jambe de Bois", "price": 3, "alcool": 8, "description": "The Jambe de Bois (litteraly: Wooden Leg) is a copper-colored bitter blond beer from the young artisanal Brussels brewery <a href=\"http://brasseriedelasenne.be/\">Brasserie de La Senne</a>. It is made from malt and a subtle blend of old varieties of aromatic hops and has an opiniated taste which makes the brewery signature."},
             {"name": "Westmalle Triple", "price": 3, "alcool": 9.5, "description": "Westmalle Tripel is a golden yellow abbey beer, fermented 3 times. It has a powerful creamy aroma with a light hop and fruity scent with a unique aftertaste. The beer is still made by Westmalle Abbey's monks, which incomes is dedicated to monastic livelihood; which makes this beer one of the only 6 trappist beers in Belgium !"},
             {"name": "Maredsous Triple", "price": 3, "alcool": 10, "description": "Maredsous is an abbey beer, with an oranged blond robe. It has a strong malted taste, with spicy notes."}
@@ -19,7 +19,7 @@
         "expand": true,
         "content": [
             {"name": "Chimay Bleue", "price": 3, "alcool": 9, "description": "Chimay Bleue is a dark trappist beer, with a very sweet taste, close to caramel or chocolate. Once bottled, it maturates very well over years."},
-            {"name": "Leffe Brune", "price": 2.5, "alcool": 6.5, "description": "Leffe is a well-known sweet brown beer made with torrefied malt."}
+            {"name": "Leffe Brune", "price": 3, "alcool": 6.5, "description": "Leffe is a well-known sweet brown beer made with torrefied malt."}
         ]
     },
     {
