@@ -55,6 +55,20 @@
         ]
     },
     {
+        "category": "Coffee by Caffe Vergnano",
+        "content": [
+            {"name": "Americano (large)", "price": 3},
+            {"name": "Latte (large)", "price": 3},
+            {"name": "Double Espresso (large)", "price": 3},
+            {"name": "Cappuccino (medium)", "price": 2.50},
+            {"name": "Lungo (medium)", "price": 2},
+            {"name": "Espresso Macchiato (small)", "price": 2},
+            {"name": "Espresso (small)", "price": 2},
+            {"name": "Hot Chocolate (large)", "price": 2.50},
+            {"name": "Tea (large)", "price": 2.50}
+        ]
+    },
+    {
         "category": "Snacks",
         "content": [
             {"name": "Mars", "price": 1},
