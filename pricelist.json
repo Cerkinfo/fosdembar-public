@@ -30,7 +30,7 @@
         "content": [
             {"name": "Kriek Lindemans", "price": 2.5, "alcool": 3.5, "description": "The kriek is a typical fruity beer, made from lambic and cherries. The Lindemans is also pasteurised, and results in a very light, sweet and refreshing beer."},
             {"name": "Hoegaarden Blanche", "price": 2, "alcool": 4.9, "description": "The Hoegaarden is the most famous white beer in and outside of Belgium. It is a sweet and refreshing beer, brewed with coriander and lemon which makes it even more refreshing."},
-            {"name": "Pêcheresse", "price": 3.5, "alcool": 5, "description": "The pêcheresse is a fruity lambic with a very strong sweet peach taste."}
+            {"name": "Pecheresse", "price": 3.5, "alcool": 5, "description": "The pêcheresse is a fruity lambic with a very strong sweet peach taste."}
 
         ]
     },
