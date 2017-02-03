@@ -13,7 +13,7 @@
             {"name": "Jambe de Bois", "price": 3.5, "alcool": 8, "description": "The Jambe de Bois (litteraly: Wooden Leg) is a copper-colored bitter blond beer from the young artisanal Brussels brewery <a href=\"http://brasseriedelasenne.be/\">Brasserie de La Senne</a>. It is made from malt and a subtle blend of old varieties of aromatic hops and has an opiniated taste which makes the brewery signature."},
             {"name": "Hopus", "price": 3.5, "alcool": 8.3, "description": "The Hopus is a blonde beer with pleasing copper reflections and a generous head, also made by the <a href=\"http://www.brasserielefebvre.be/\">Brasserie Lefebvre</a>. This beer is derived from a secret recipe for one of the brewers wedding !"},
             {"name": "Barbar", "price": 3.5, "alcool": 8, "description": "The Barbar is a deep blond with a creamy texture and powerful aroma made by the <a href=\"http://www.brasserielefebvre.be/\">Brasserie Lefebvre</a>. For more sweetness, there is a subtle scent of honey that makes this beer unique"},
-            {"name": "Moinette Bio", "price": 3, "alcool": 7.5, "description":"The moinette is an refreshing organic blond beer with a balance of soft, bitter and fruity favours."},
+            {"name": "Moinette Bio", "price": 3, "alcool": 7.5, "description":"The moinette is an refreshing organic blond beer with a balance of soft, bitter and fruity favours."}
         ]
     },
     {
@@ -29,7 +29,7 @@
         "expand": true,
         "content": [
             {"name": "Kriek Lindemans", "price": 2.5, "alcool": 3.5, "description": "The kriek is a typical fruity beer, made from lambic and cherries. The Lindemans is also pasteurised, and results in a very light, sweet and refreshing beer."},
-            {"name": "Hoegaarden Blanche", "price": 2, "alcool": 4.9, "description": "The Hoegaarden is the most famous white beer in and outside of Belgium. It is a sweet and refreshing beer, brewed with coriander and lemon which makes it even more refreshing."}
+            {"name": "Hoegaarden Blanche", "price": 2, "alcool": 4.9, "description": "The Hoegaarden is the most famous white beer in and outside of Belgium. It is a sweet and refreshing beer, brewed with coriander and lemon which makes it even more refreshing."},
             {"name": "Pêcheresse", "price": 3.5, "alcool": 5, "description": "The pêcheresse is a fruity lambic with a very strong sweet peach taste."}
 
         ]
