@@ -9,9 +9,8 @@
             {"name": "Leffe blonde", "price": 3, "alcool": 6.6, "description": "Leffe is a well-known bittersweet blond abbey beer"},
             {"name": "Grimbergen blonde", "price": 3, "alcool": 6.7, "description": "The Grimbergen is an blond beer, with tan reflections and recognized as a belgian abbey beer. It has a sweet and light fruity aroma."},
             {"name": "Westmalle Triple", "price": 3.5, "alcool": 9.5, "description": "Westmalle Tripel is a golden yellow abbey beer, fermented 3 times. It has a powerful creamy aroma with a light hop and fruity scent with a unique aftertaste. The beer is still made by Westmalle Abbey's monks, which incomes is dedicated to monastic livelihood; which makes this beer one of the only 6 trappist beers in Belgium !"},
+            {"name": "Ginette Triple Bio", "price": 3.5, "alcool": 9, "description": "This big sister completes the Ginette family. With a sufficient amount of bitterness, a flavour of elderflower and a strong character (9°)!"},
             {"name": "Maredsous Triple", "price": 3, "alcool": 10, "description": "Maredsous is an abbey beer, with an oranged blond robe. It has a strong malted taste, with spicy notes."},
-            {"name": "Jambe de Bois", "price": 3.5, "alcool": 8, "description": "The Jambe de Bois (litteraly: Wooden Leg) is a copper-colored bitter blond beer from the young artisanal Brussels brewery <a href=\"http://brasseriedelasenne.be/\">Brasserie de La Senne</a>. It is made from malt and a subtle blend of old varieties of aromatic hops and has an opiniated taste which makes the brewery signature."},
-            {"name": "Hopus", "price": 3.5, "alcool": 8.3, "description": "The Hopus is a blonde beer with pleasing copper reflections and a generous head, also made by the <a href=\"http://www.brasserielefebvre.be/\">Brasserie Lefebvre</a>. This beer is derived from a secret recipe for one of the brewers wedding !"},
             {"name": "Barbar", "price": 3.5, "alcool": 8, "description": "The Barbar is a deep blond with a creamy texture and powerful aroma made by the <a href=\"http://www.brasserielefebvre.be/\">Brasserie Lefebvre</a>. For more sweetness, there is a subtle scent of honey that makes this beer unique"},
             {"name": "Moinette Bio", "price": 3, "alcool": 7.5, "description":"The moinette is an refreshing organic blond beer with a balance of soft, bitter and fruity favours."}
         ]
@@ -25,10 +24,26 @@
         ]
     },
     {
+        "category": "IPA/Bitter",
+        "expand": true,
+        "content": [
+            {"name": "Goose IPA", "price": 3.5, "alcool": 5.9, "description": " Our India Pale Ale recalls a time when ales shipped from England to India were highly hopped to preserve their distinct taste during the long journey. The result is a hop lover’s dream with a fruity aroma, set off by a dry malt middle, and long hop finish."},
+            {"name": "Goose Honkers Ale", "price": 3.0, "alcool": 4.3, "description": " Inspired by visits to English country pubs, Honker’s Ale combines a spicy hop aroma with a rich malt middle to create a perfectly balanced beer. Immensely drinkable, Honker’s Ale is not only a beer drinkers can trust but one they’ll look forward to."}
+        ]
+    },
+    {
+        "category": "Lambic",
+        "expand": true,
+        "content": [
+            {"name": "Gueuze St Louis", "price": 2.5, "alcool": 5, "description": ""}
+        ]
+    },
+    {
         "category": "Fruits and white beers",
         "expand": true,
         "content": [
             {"name": "Kriek Lindemans", "price": 2.5, "alcool": 3.5, "description": "The kriek is a typical fruity beer, made from lambic and cherries. The Lindemans is also pasteurised, and results in a very light, sweet and refreshing beer."},
+            {"name": "Ginette Fruit Bio", "price": 3, "alcool": 4, "description": "A fruity lady made out of raspberry, blackcurrant, blueberry and even elderberry juice. At 4% alc/vol, she is light, slighly sweet and would almost make you forget that she is indeed a beer."},
             {"name": "Hoegaarden Blanche", "price": 2, "alcool": 4.9, "description": "The Hoegaarden is the most famous white beer in and outside of Belgium. It is a sweet and refreshing beer, brewed with coriander and lemon which makes it even more refreshing."},
             {"name": "Pecheresse", "price": 3.5, "alcool": 5, "description": "The pecheresse is a fruity lambic with a very strong sweet peach taste."}
 
@@ -37,13 +52,13 @@
     {
         "category": "Mate",
         "content": [
-            {"name": "Club Mate", "price": 3},
-            {"name": "Flora Power", "price": 3}
+            {"name": "Club Mate", "price": 3}
         ]
     },
     {
         "category": "Soft Drinks",
         "content": [
+            {"name": "Fritz Kola", "price": 2.00},
             {"name": "Coca Cola", "price": 1.50},
             {"name": "Coca Cola Light", "price": 1.50},
             {"name": "Coca Cola Zero", "price": 1.50},
@@ -80,10 +95,8 @@
     {
         "category": "Pastries (french name)",
         "content": [
-            {"name": "Croissant", "price": 1},
-            {"name": "Couque au beurre", "price": 1},
-            {"name": "Couque aux raisins", "price": 1},
-            {"name": "Couque au chocolat", "price": 1}
+            {"name": "Croissant", "price": 1.20},
+            {"name": "Couque au chocolat", "price": 1.20}
         ]
     },
     {
