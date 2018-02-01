@@ -27,7 +27,7 @@
         "category": "IPA/Bitter",
         "expand": true,
         "content": [
-            {"name": "Goose IPA", "price": 3.5, "alcool": 5.9, "description": " Our India Pale Ale recalls a time when ales shipped from England to India were highly hopped to preserve their distinct taste during the long journey. The result is a hop lover’s dream with a fruity aroma, set off by a dry malt middle, and long hop finish."},
+            {"name": "Goose IPA", "price": 3, "alcool": 5.9, "description": " Our India Pale Ale recalls a time when ales shipped from England to India were highly hopped to preserve their distinct taste during the long journey. The result is a hop lover’s dream with a fruity aroma, set off by a dry malt middle, and long hop finish."},
             {"name": "Goose Honkers Ale", "price": 3.0, "alcool": 4.3, "description": " Inspired by visits to English country pubs, Honker’s Ale combines a spicy hop aroma with a rich malt middle to create a perfectly balanced beer. Immensely drinkable, Honker’s Ale is not only a beer drinkers can trust but one they’ll look forward to."}
         ]
     },
@@ -35,7 +35,8 @@
         "category": "Lambic",
         "expand": true,
         "content": [
-            {"name": "Gueuze St Louis", "price": 2.5, "alcool": 5, "description": ""}
+            {"name": "Gueuze St Louis", "price": 2.5, "alcool": 5, "description": ""},
+            {"name": "Pecheresse", "price": 3.5, "alcool": 2.5, "description": "The pecheresse is a fruity lambic with a very strong sweet peach taste."}
         ]
     },
     {
@@ -44,9 +45,7 @@
         "content": [
             {"name": "Kriek Lindemans", "price": 2.5, "alcool": 3.5, "description": "The kriek is a typical fruity beer, made from lambic and cherries. The Lindemans is also pasteurised, and results in a very light, sweet and refreshing beer."},
             {"name": "Ginette Fruit Bio", "price": 3, "alcool": 4, "description": "A fruity lady made out of raspberry, blackcurrant, blueberry and even elderberry juice. At 4% alc/vol, she is light, slighly sweet and would almost make you forget that she is indeed a beer."},
-            {"name": "Hoegaarden Blanche", "price": 2, "alcool": 4.9, "description": "The Hoegaarden is the most famous white beer in and outside of Belgium. It is a sweet and refreshing beer, brewed with coriander and lemon which makes it even more refreshing."},
-            {"name": "Pecheresse", "price": 3.5, "alcool": 5, "description": "The pecheresse is a fruity lambic with a very strong sweet peach taste."}
-
+            {"name": "Hoegaarden Blanche", "price": 2, "alcool": 4.9, "description": "The Hoegaarden is the most famous white beer in and outside of Belgium. It is a sweet and refreshing beer, brewed with coriander and lemon which makes it even more refreshing."}
         ]
     },
     {
