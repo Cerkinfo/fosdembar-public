@@ -35,15 +35,16 @@
         - PRICELIST.each_slice(3) do |r|
           %div.row
             - r.each do |section|
-              %div.collection.with-header.col.l4.s12.z-depth-3
-                %div.collection-header
-                  %h4= section['category']
-                - section['content'].each do |item|
-                  %a.collection-item{href: "##{item['name'].downcase.gsub ' ', '_'}"}
-                    = item['name']
-                    %div.secondary-content
-                      #{item['price']}
-                      €
+              %div.col.l4.s12
+                %div.collection.with-header.z-depth-3
+                  %div.collection-header
+                    %h4= section['category']
+                  - section['content'].each do |item|
+                    %a.collection-item{href: "##{item['name'].downcase.gsub ' ', '_'}"}
+                      = item['name']
+                      %div.secondary-content
+                        #{item['price']}
+                        €
     
         %div.row
           %p.flow-text
@@ -99,23 +100,24 @@
                 - section['content'].each_slice(3) do |r|
                   %div.row
                     - r.each do |item|
-                      %div.card.small.col.l4.m6.s12.z-depth-3{id: "#{item['name'].downcase.gsub ' ', '_'}"}
-                        %div.card-image.waves-effect.waves-block.waves-light
-                          %img.responsive-img.activator{style: "height: 200px; width:auto;", alt: "#{item['name']}", src: "beers/#{item['name'].downcase.gsub ' ', '_'}.png"}
-                        %div.card-content
-                          %span.card-title.activator.grey-text.text-darken-4
-                            = item['name']
-                            \ (#{item['alcool']}°)
-                            %i.material-icons.right
-                              more_vert
-                        %div.card-reveal
-                          %span.card-title.grey-text.text-darken-4
-                            = item['name']
-                            \ (#{item['alcool']}°)
-                            %i.material-icons.right
-                              close
-                          %p.flow-text
-                            #{item['description']}
+                      %div.small.col.l4.m6.s12
+                        %div.card.z-depth-3{id: "#{item['name'].downcase.gsub ' ', '_'}"}
+                          %div.card-image.waves-effect.waves-block.waves-light
+                            %img.responsive-img.activator{style: "height: 200px; width:auto;", alt: "#{item['name']}", src: "beers/#{item['name'].downcase.gsub ' ', '_'}.png"}
+                          %div.card-content
+                            %span.card-title.activator.grey-text.text-darken-4
+                              = item['name']
+                              \ (#{item['alcool']}°)
+                              %i.material-icons.right
+                                more_vert
+                          %div.card-reveal
+                            %span.card-title.grey-text.text-darken-4
+                              = item['name']
+                              \ (#{item['alcool']}°)
+                              %i.material-icons.right
+                                close
+                            %p.flow-text
+                              #{item['description']}
     %footer.page-footer.deep-purple
       %div.footer-copyright
         %div.container
