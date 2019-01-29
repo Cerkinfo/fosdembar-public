@@ -10,6 +10,16 @@
         ]
     },
     {
+        "category": "Brussels beers",
+        "expand": true,
+        "content": [
+            {"name": "Zinnebir", "price": 3.5, "alcool": 6, "description": "Golden blond with 6% alc., malty, with a fine bitterness and a long aftertaste. The scent is complex, developing a fruity-hop intense fragrance."},
+            {"name": "Jambe de Bois", "price": 3.5, "alcool": 8, "description": "Blond and copper-colored, Jambe-de-Bois is a powerful and full-bodied beer. It has a scent of ripe banana and a subtle blend of old varieties of aromatic hops. As for taste, the malt dominates, supported by a long and delicate bitterness. It has 8% alcohol."},
+            {"name": "Taras Boulba", "price": 3.5, "alcool": 4.5, "description": "Light blonde with 4.5% alc., generously hopped with the finest aromatic hops, giving it a very refreshing character and a scent reminiscent of citrus."},
+            {"name": "100 PAP", "price": 3.5, "alcool": 6, "description": "A Brussels bitter beer with a touch of juniper. The benefits of the beer help to find a sustainable access to housing for undocumented migrants. More infos on <a href=\"http://100pap.be/projet.html\">100 PAP</a>."}
+        ]
+    },
+    {
         "category": "Blond beers",
         "expand": true,
         "content": [
@@ -37,7 +47,6 @@
         "category": "IPA/Bitter",
         "expand": true,
         "content": [
-            {"name": "100 PAP", "price": 3.5, "alcool": 6, "description": "A Brussels bitter beer with a touch of juniper. The benefits of the beer help to find a sustainable access to housing for undocumented migrants. More infos on <a href=\"http://100pap.be/projet.html\">100 PAP</a>."},
             {"name": "Goose 312", "price": 3.5, "alcool": 4.2, "description": "Like the digits suggest, it’s a beer that’s densely populated with flavor and loaded with character. We don’t filter it, so none of its life and soul is stripped away. The first thing you notice is the hazy, cloudy appearance. That’s how you know it’s unfiltered. What hits you next is the spicy aroma of Cascade hops, followed by the crispy, fruity ale flavor delivered in a smooth, creamy body, the result of blending barley malt with torrified wheat. It’s not like any other Goose Island Beer, but no less that you’d expect."},
             {"name": "Goose IPA", "price": 3.5, "alcool": 5.9, "description": "Our India Pale Ale recalls a time when ales shipped from England to India were highly hopped to preserve their distinct taste during the long journey. The result is a hop lover’s dream with a fruity aroma, set off by a dry malt middle, and long hop finish."}
         ]
