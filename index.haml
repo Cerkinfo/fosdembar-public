@@ -17,11 +17,11 @@
       %nav
         %div.nav-wrapper.deep-purple
           %a.brand-logo{href:'#'}
-            %img.responsive-img{alt: "cerkinfo-logo", src: "img/nav_brand.png", style: "height: 58px"}
+            %img.responsive-img{alt: "cerkinfo-logo", src: "img/nav_brand.png", style: "height: 58px; padding: 5px"}
           %ul#nav-mobile.right.hide-on-med-and-down
             %li
               %a{href:"#prices"} Prices
-            %li  
+            %li
               %a{href:"#locations"} Where to find us
             %li
               %a{href:"#beers"} The beers
@@ -31,7 +31,7 @@
         %div.row
           %h2 Prices
           %p.flow-text
-            All our prices are in euros (&euro;) including taxes.
+            All our prices are in euros (&euro;) including taxes. Payments can be made by carts or by cash. Ask for the receipt if you need one.
         - PRICELIST.each_slice(3) do |r|
           %div.row
             - r.each do |section|
@@ -45,7 +45,7 @@
                       %div.secondary-content
                         #{item['price']}
                         €
-    
+
         %div.row
           %p.flow-text
             You can also download a
@@ -65,24 +65,32 @@
           %p.flow-text
             Our regular bars offer a selection of fine belgian beers, sodas, juices and coffee. You can also have pastries and snacks all the day, as well as sandwiches starting from 11:30 AM.
         %div.row
-          %div.col.l6.m12
+          %div.col.l4.m12
             %h4 Janson gallery
             %p.flow-text
               Accesible through the H Building/Janson external access, or the doors in the auditorium at mid-height
             %a{href: "geo:50.813186,4.379594", target: "_blank"}
-            %img{width:450, alt: "Janson map", src: "maps/bar-janson.png"}
+            %img{width:400, alt: "Janson map", src: "maps/bar-janson.png"}
 
-          %div.col.l6.m12
+          %div.col.l4.m12
             %h4 Campouce
             %p.flow-text
               Inside the F Building, in the middle of the campus
             %a{href: "geo:50.813637,4.382390", target: "_blank"}
-            %img{width:450, alt: "Campouce map", src: "maps/bar-campouce.png"}
+            %img{width:400, alt: "Campouce map", src: "maps/bar-campouce.png"}
+
+          %div.col.l4.m12
+            %h4 Chez Théo
+            %p.flow-text
+              The other part of the F Building. Also accessible from the outside
+            %a{href: "geo:50.813186,4.379594", target: "_blank"}
+            %img{width:400, alt: "Janson map", src: "maps/bar-cheztheo.png"}
+
         %div.row
           %h3 Water only
           %h4 K-Building
         %div.row
-          %div.col.l6.m12 
+          %div.col.l6.m12
             %p.flow-text
               Inside the K Building just beside the infodesk
             %a{href: "geo:50.814773,4.381605", target: "_blank"}
@@ -103,7 +111,7 @@
                       %div.small.col.l4.m6.s12
                         %div.card.z-depth-3{id: "#{item['name'].downcase.gsub ' ', '_'}"}
                           %div.card-image.waves-effect.waves-block.waves-light
-                            %img.responsive-img.activator{style: "height: 200px; width:auto;", alt: "#{item['name']}", src: "beers/#{item['name'].downcase.gsub ' ', '_'}.png"}
+                            %img.responsive-img.activator{style: "padding: 20px; height: 200px; width:auto; display: block; margin: 0 auto;", alt: "#{item['name']}", src: "beers/#{item['name'].downcase.gsub ' ', '_'}.png"}
                           %div.card-content
                             %span.card-title.activator.grey-text.text-darken-4
                               = item['name']
@@ -124,7 +132,7 @@
           %p.flow-text
             %a{href:"http://cerkinfo.be/", target: "_blank"}
               %img{alt: "cerkinfo-logo", src: "img/nav_brand.png"}
-            %em FOSDEMBAR is ran by Cercle Informatique de l'ULB
+            %em The beerhub is ran by Cercle Informatique de l'ULB
 
   %script(src="https://code.jquery.com/jquery-2.1.1.min.js")
   %script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js")

@@ -3,16 +3,19 @@
         "category": "Blond beers",
         "expand": true,
         "content": [
-            {"name": "Jupiler", "price": 2, "alcool": 5.2, "description": "The Jupiler is one of the most popular beer in Belgium, and is the typical pils you would find in the bar next door. It is made in Jupille (near Liège), hence its name."},
-            {"name": "Cuvee des Trolls", "price": 2.5, "alcool":7, "description":"The Cuvee des Trolls is an strong blond artisan's beer with slight hints of orange and honey. A reference in Belgian beers!"},
-            {"name": "Duvel", "price": 3, "alcool": 8.5, "description": "The Duvel is a refreshing bitter blond beer with a hoppy taste and a high alcool degree."},
-            {"name": "Leffe blonde", "price": 3, "alcool": 6.6, "description": "Leffe is a well-known bittersweet blond abbey beer"},
-            {"name": "Grimbergen blonde", "price": 3, "alcool": 6.7, "description": "The Grimbergen is an blond beer, with tan reflections and recognized as a belgian abbey beer. It has a sweet and light fruity aroma."},
-            {"name": "Westmalle Triple", "price": 3.5, "alcool": 9.5, "description": "Westmalle Tripel is a golden yellow abbey beer, fermented 3 times. It has a powerful creamy aroma with a light hop and fruity scent with a unique aftertaste. The beer is still made by Westmalle Abbey's monks, which incomes is dedicated to monastic livelihood; which makes this beer one of the only 6 trappist beers in Belgium !"},
-            {"name": "Ginette Triple Bio", "price": 3.5, "alcool": 9, "description": "This big sister completes the Ginette family. With a sufficient amount of bitterness, a flavour of elderflower and a strong character (9°)!"},
-            {"name": "Maredsous Triple", "price": 3, "alcool": 10, "description": "Maredsous is an abbey beer, with an oranged blond robe. It has a strong malted taste, with spicy notes."},
+            {"name": "Jupiler", "price": 2.5, "alcool": 5.2, "description": "The Jupiler is one of the most popular beer in Belgium, and is the typical pils you would find in the bar next door. It is made in Jupille (near Liège), hence its name."},
             {"name": "Barbar", "price": 3.5, "alcool": 8, "description": "The Barbar is a deep blond with a creamy texture and powerful aroma made by the <a href=\"http://www.brasserielefebvre.be/\">Brasserie Lefebvre</a>. For more sweetness, there is a subtle scent of honey that makes this beer unique"},
-            {"name": "Moinette Bio", "price": 3, "alcool": 7.5, "description":"The moinette is an refreshing organic blond beer with a balance of soft, bitter and fruity favours."}
+            {"name": "Cuvee des Trolls", "price": 2.5, "alcool":7, "description":"The Cuvee des Trolls is an strong blond artisan's beer with slight hints of orange and honey. A reference in Belgian beers!"},
+            {"name": "Duvel", "price": 3.5, "alcool": 8.5, "description": "The Duvel is a refreshing bitter blond beer with a hoppy taste and a high alcool degree."},
+            {"name": "Grimbergen blonde", "price": 3, "alcool": 6.7, "description": "The Grimbergen is an blond beer, with tan reflections and recognized as a belgian abbey beer. It has a sweet and light fruity aroma."},
+            {"name": "Ginette Triple Bio", "price": 3.5, "alcool": 9, "description": "This big sister completes the Ginette family. With a sufficient amount of bitterness, a flavour of elderflower and a strong character (9°)!"},
+            {"name": "Hopus", "price": 3.5, "alcool": 8.3, "description": "The Grimbergen is an blond beer, with tan reflections and recognized as a belgian abbey beer. It has a sweet and light fruity aroma."},
+            {"name": "Julius", "price": 3, "alcool": 8.7, "description": "Julius is a clear, bright golden blond Beer with a creamy head."},
+            {"name": "Leffe blonde", "price": 3, "alcool": 6.6, "description": "Leffe is a well-known bittersweet blond abbey beer"},
+            {"name": "Westmalle Triple", "price": 3.5, "alcool": 9.5, "description": "Westmalle Tripel is a golden yellow abbey beer, fermented 3 times. It has a powerful creamy aroma with a light hop and fruity scent with a unique aftertaste. The beer is still made by Westmalle Abbey's monks, which incomes is dedicated to monastic livelihood; which makes this beer one of the only 6 trappist beers in Belgium !"},
+            {"name": "Maredsous Triple", "price": 3.5, "alcool": 10, "description": "Maredsous is an abbey beer, with an oranged blond robe. It has a strong malted taste, with spicy notes."},
+            {"name": "Ramee Ambree", "price": 3.5, "alcool": 7.5, "description": "The amber colour is the result of brewing a pure variety of two-row spring malt, the addition of roasted wheat along with a careful selection of spices in its recipe. La Ramée is a non-filtered high fermentation beer, re-fermented in the bottle, exceptionally easily to digest, with a slightly peppery flavour."},
+            {"name": "Triple Karmeliet", "price": 3, "alcool": 8.4, "description": "Bottle conditioned. First brewed 1996; claimed to be based on a recipe from 1679 which used wheat, oat and barley. Tripel Karmeliet is a very refined and complex golden-to-bronze brew with a fantastic creamy head. These characteristics derive not only from the grains used but also from restrained hopping with Styrians and the fruity nature (banana and vanilla) of the house yeast. Aroma has hints of vanilla mixed with citrus aromas. Tripel Karmeliet has not only the lightness and freshness of wheat, but also the creaminess of oats together with a spicy lemony almost quinine dryness."}
         ]
     },
     {
@@ -20,32 +23,28 @@
         "expand": true,
         "content": [
             {"name": "Chimay Bleue", "price": 3.5, "alcool": 9, "description": "Chimay Bleue is a dark trappist beer, with a very sweet taste, close to caramel or chocolate. Once bottled, it maturates very well over years."},
-            {"name": "Leffe Brune", "price": 3, "alcool": 6.5, "description": "Leffe is a well-known sweet brown beer made with torrefied malt."}
+            {"name": "Leffe Brune", "price": 3, "alcool": 9.2, "description": "The lower gravity cousin to Rochefort 10. Nicknamed 'Spéciale' (’The Special’), this beer is the most recent production. The Rochefort 8 has a more tawny colour and a more pronounced aroma, with an even richer fruitiness (a slight undertone of fig?) and a little more spiced dryness, like that of a cake, which gives a balanced finish to the final notes."},
+            {"name": "Rochefort 8", "price": 3.5, "alcool": 6.5, "description": "Leffe is a well-known sweet brown beer made with torrefied malt."}
         ]
     },
     {
         "category": "IPA/Bitter",
         "expand": true,
         "content": [
-            {"name": "Goose IPA", "price": 3, "alcool": 5.9, "description": " Our India Pale Ale recalls a time when ales shipped from England to India were highly hopped to preserve their distinct taste during the long journey. The result is a hop lover’s dream with a fruity aroma, set off by a dry malt middle, and long hop finish."},
-            {"name": "Goose Honkers Ale", "price": 3, "alcool": 4.3, "description": " Inspired by visits to English country pubs, Honker’s Ale combines a spicy hop aroma with a rich malt middle to create a perfectly balanced beer. Immensely drinkable, Honker’s Ale is not only a beer drinkers can trust but one they’ll look forward to."}
+            {"name": "Goose IPA", "price": 3.5, "alcool": 5.9, "description": "Our India Pale Ale recalls a time when ales shipped from England to India were highly hopped to preserve their distinct taste during the long journey. The result is a hop lover’s dream with a fruity aroma, set off by a dry malt middle, and long hop finish."},
+            {"name": "Goose 312", "price": 3.5, "alcool": 4.2, "description": "Like the digits suggest, it’s a beer that’s densely populated with flavor and loaded with character. We don’t filter it, so none of its life and soul is stripped away. The first thing you notice is the hazy, cloudy appearance. That’s how you know it’s unfiltered. What hits you next is the spicy aroma of Cascade hops, followed by the crispy, fruity ale flavor delivered in a smooth, creamy body, the result of blending barley malt with torrified wheat. It’s not like any other Goose Island Beer, but no less that you’d expect."}
         ]
     },
     {
-        "category": "Lambic",
+        "category": "Lambic, Fruited or white beers",
         "expand": true,
         "content": [
-            {"name": "Gueuze St Louis", "price": 2.5, "alcool": 5, "description": ""},
-            {"name": "Pecheresse", "price": 3.5, "alcool": 2.5, "description": "The pecheresse is a fruity lambic with a very strong sweet peach taste."}
-        ]
-    },
-    {
-        "category": "Fruits and white beers",
-        "expand": true,
-        "content": [
-            {"name": "Kriek Lindemans", "price": 2.5, "alcool": 3.5, "description": "The kriek is a typical fruity beer, made from lambic and cherries. The Lindemans is also pasteurised, and results in a very light, sweet and refreshing beer."},
+            {"name": "Kriek Belle Vue", "price": 2.5, "alcool": 5.2, "description": "The kriek is a typical fruity beer, made from lambic and cherries. The Lindemans is also pasteurised, and results in a very light, sweet and refreshing beer."},
             {"name": "Ginette Fruit Bio", "price": 3, "alcool": 4, "description": "A fruity lady made out of raspberry, blackcurrant, blueberry and even elderberry juice. At 4% alc/vol, she is light, slighly sweet and would almost make you forget that she is indeed a beer."},
-            {"name": "Hoegaarden Blanche", "price": 2, "alcool": 4.9, "description": "The Hoegaarden is the most famous white beer in and outside of Belgium. It is a sweet and refreshing beer, brewed with coriander and lemon which makes it even more refreshing."}
+            {"name": "Kasteel Red", "price": 3.5, "alcool": 8, "description": "Kasteel Rouge is based on our Kasteel Donker. This fruity beer makes a great aperitif on a sunny terrace. It’s certainly a beer for lovers of sweet cherries with an intense aroma of the fruit. The cherries get the better of the malt in the Kasteel Donker mother beer, although it contributes touches of chocolate and pepper to remind you it’s there. It is surprisingly easily digestible for quite a strong beer."},
+            {"name": "Hoegaarden Blanche", "price": 2.5, "alcool": 4.9, "description": "The Hoegaarden is the most famous white beer in and outside of Belgium. It is a sweet and refreshing beer, brewed with coriander and lemon which makes it even more refreshing."},
+            {"name": "Gueuze Belle Vue", "price": 3, "alcool": 5.5, "description": "The Belle-Vue Gueuze is also called the 'champagne of the beer' with a particular taste including touch of sourness and bitterness."},
+            {"name": "Pecheresse", "price": 3.5, "alcool": 2.5, "description": "The pecheresse is a fruity lambic with a very strong sweet peach taste."}
         ]
     },
     {
@@ -57,7 +56,7 @@
     {
         "category": "Soft Drinks",
         "content": [
-            {"name": "Fritz Kola", "price": 2.00},
+            {"name": "Fritz Kola", "price": 2.50},
             {"name": "Coca Cola", "price": 1.50},
             {"name": "Coca Cola Light", "price": 1.50},
             {"name": "Coca Cola Zero", "price": 1.50},
@@ -101,11 +100,11 @@
     {
         "category": "Sandwiches",
         "content": [
-            {"name": "Club (ham, cheese, salad)", "price": 3},
-            {"name": "Cheese (cheese, salad)", "price": 3},
-            {"name": "Curry Chicken", "price": 3},
-            {"name": "Tuna", "price": 3},
-            {"name": "Veggie (salad)", "price": 2.50}
+            {"name": "Club (ham, cheese, salad, tomatoes and mayonnaise)", "price": 4},
+            {"name": "Curry Chicken", "price": 4},
+            {"name": "Tuna", "price": 4},
+            {"name": "Veggie (fresh cheese, grilled veggies, salad and tomatoes)", "price": 4},
+            {"name": "Vegan (grilled eggplant and bell pepper, salad, tomatoes, cucumbers)", "price": 4}
         ]
     }
 ]
