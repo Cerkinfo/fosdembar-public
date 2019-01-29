@@ -15,9 +15,9 @@
   %body
     %div.navbar-fixed
       %nav
-        %div.nav-wrapper.deep-purple
+        %div.nav-wrapper{style: "background-color: #4a148c"}
           %a.brand-logo{href:'#'}
-            %img.responsive-img{alt: "cerkinfo-logo", src: "img/nav_brand.png", style: "height: 58px; padding: 5px"}
+            %img.responsive-img{alt: "cerkinfo-logo", src: "img/fosdem_ci_white.png", style: "height: 58px; padding-top: 5px; padding-left: 10px"}
           %ul#nav-mobile.right.hide-on-med-and-down
             %li
               %a{href:"#prices"} Prices
@@ -126,12 +126,12 @@
                                 close
                             %p.flow-text
                               #{item['description']}
-    %footer.page-footer.deep-purple
+    %footer.page-footer{style: "background-color: #4a148c"}
       %div.footer-copyright
         %div.container
           %p.flow-text
             %a{href:"http://cerkinfo.be/", target: "_blank"}
-              %img{alt: "cerkinfo-logo", src: "img/nav_brand.png"}
+              %img{alt: "cerkinfo-logo", src: "img/ci.png", style: "height: 128px"}
             %em The beerhub is ran by Cercle Informatique de l'ULB
 
   %script(src="https://code.jquery.com/jquery-2.1.1.min.js")
