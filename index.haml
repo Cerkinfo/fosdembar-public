@@ -10,7 +10,11 @@
     %title Bar @ FOSDEM #{EDITION}
     %link{rel:"stylesheet", href:"https://fonts.googleapis.com/icon?family=Material+Icons"}
     %link{rel:"stylesheet", href:"https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css", media:"screen,projection"}
-    %link{rel:"icon", type:"image/png", href:"img/nav_brand.png"}
+    %link{rel:"stylesheet", href:"statics/css/zoom.css"}
+    %link{rel:"icon", type:"image/png", href:"img/fosdem_ci_purple.png"}
+    %script{src:"https://code.jquery.com/jquery-3.3.1.slim.min.js", integrity:"sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=", crossorigin:"anonymous"}
+    %script{src:"statics/js/zoom.min.js"}
+    %script{src:"statics/js/transition.js"}
     %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
   %body
     %div.navbar-fixed
@@ -70,21 +74,21 @@
             %p.flow-text
               Accesible through the H Building/Janson external access, or the doors in the auditorium at mid-height
             %a{href: "geo:50.813186,4.379594", target: "_blank"}
-            %img{width:400, alt: "Janson map", src: "maps/bar-janson.png"}
+            %img{width:400, alt: "Janson map", src: "maps/bar-janson.png", "data-action":"zoom"}
 
           %div.col.l4.m12
             %h4 Campouce
             %p.flow-text
               Inside the F Building, in the middle of the campus
             %a{href: "geo:50.813637,4.382390", target: "_blank"}
-            %img{width:400, alt: "Campouce map", src: "maps/bar-campouce.png"}
+            %img{width:400, alt: "Campouce map", src: "maps/bar-campouce.png", "data-action":"zoom"}
 
           %div.col.l4.m12
             %h4 Chez Théo
             %p.flow-text
               The other part of the F Building. Also accessible from the outside
             %a{href: "geo:50.813186,4.379594", target: "_blank"}
-            %img{width:400, alt: "Janson map", src: "maps/bar-cheztheo.png"}
+            %img{width:400, alt: "Janson map", src: "maps/bar-cheztheo.png", "data-action":"zoom"}
 
         %div.row
           %h3 Water only
@@ -94,7 +98,7 @@
             %p.flow-text
               Inside the K Building just beside the infodesk
             %a{href: "geo:50.814773,4.381605", target: "_blank"}
-              %img{width:450, alt: "K building map", src: "maps/bar-k.png"}
+              %img{width:450, alt: "K building map", src: "maps/bar-k.png", "data-action":"zoom"}
       %div.divider
       %div.section#beers
         %div.row
