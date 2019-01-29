@@ -1,4 +1,3 @@
-*.html
 *.aux
 *.lof
 *.log
@@ -10,6 +9,4 @@
 *.fot
 *.cb
 *.cb2
-*.pdf
-.idea/
 pricelist.tex
