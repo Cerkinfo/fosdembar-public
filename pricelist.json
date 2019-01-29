@@ -93,8 +93,8 @@
     {
         "category": "Pastries (french name)",
         "content": [
-            {"name": "Croissant", "price": 1.20},
-            {"name": "Couque au chocolat", "price": 1.20}
+            {"name": "Croissant", "price": 1},
+            {"name": "Couque au chocolat", "price": 1}
         ]
     },
     {
