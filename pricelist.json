@@ -44,18 +44,9 @@
         ]
     },
     {
-        "category": "IPA/Bitter",
-        "expand": true,
-        "content": [
-            {"name": "Goose 312", "price": 3.5, "alcool": 4.2, "description": "Like the digits suggest, it’s a beer that’s densely populated with flavor and loaded with character. We don’t filter it, so none of its life and soul is stripped away. The first thing you notice is the hazy, cloudy appearance. That’s how you know it’s unfiltered. What hits you next is the spicy aroma of Cascade hops, followed by the crispy, fruity ale flavor delivered in a smooth, creamy body, the result of blending barley malt with torrified wheat. It’s not like any other Goose Island Beer, but no less that you’d expect."},
-            {"name": "Goose IPA", "price": 3.5, "alcool": 5.9, "description": "Our India Pale Ale recalls a time when ales shipped from England to India were highly hopped to preserve their distinct taste during the long journey. The result is a hop lover’s dream with a fruity aroma, set off by a dry malt middle, and long hop finish."}
-        ]
-    },
-    {
         "category": "Lambic or Fruited beers",
         "expand": true,
         "content": [
-            {"name": "Ginette Fruit Bio", "price": 3, "alcool": 4, "description": "A fruity lady made out of raspberry, blackcurrant, blueberry and even elderberry juice. At 4% alc/vol, she is light, slighly sweet and would almost make you forget that she is indeed a beer."},
             {"name": "Gueuze Belle Vue", "price": 3, "alcool": 5.5, "description": "The Belle-Vue Gueuze is also called the 'champagne of the beer' with a particular taste including touch of sourness and bitterness."},
             {"name": "Kasteel Red", "price": 3.5, "alcool": 8, "description": "Kasteel Rouge is based on our Kasteel Donker. This fruity beer makes a great aperitif on a sunny terrace. It’s certainly a beer for lovers of sweet cherries with an intense aroma of the fruit. The cherries get the better of the malt in the Kasteel Donker mother beer, although it contributes touches of chocolate and pepper to remind you it’s there. It is surprisingly easily digestible for quite a strong beer."},
             {"name": "Kriek Belle Vue", "price": 2.5, "alcool": 5.2, "description": "The kriek is a typical fruity beer, made from lambic and cherries. The Lindemans is also pasteurised, and results in a very light, sweet and refreshing beer."},
