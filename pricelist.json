@@ -13,10 +13,13 @@
         "category": "Brussels beers",
         "expand": true,
         "content": [
+            {"name": "FOSDEM Beer", "price": 3.5, "alcool": 6, "description": "An Organic Triple made in collaboration with the Brasserie 'En Stoemeling'."},
             {"name": "Zinnebir", "price": 3.5, "alcool": 6, "description": "Golden blond with 6% alc., malty, with a fine bitterness and a long aftertaste. The scent is complex, developing a fruity-hop intense fragrance."},
             {"name": "Jambe de Bois", "price": 3.5, "alcool": 8, "description": "Blond and copper-colored, Jambe-de-Bois is a powerful and full-bodied beer. It has a scent of ripe banana and a subtle blend of old varieties of aromatic hops. As for taste, the malt dominates, supported by a long and delicate bitterness. It has 8% alcohol."},
-            {"name": "Taras Boulba", "price": 3.5, "alcool": 4.5, "description": "Light blonde with 4.5% alc., generously hopped with the finest aromatic hops, giving it a very refreshing character and a scent reminiscent of citrus."},
-            {"name": "100 PAP", "price": 3.5, "alcool": 6, "description": "A Brussels bitter beer with a touch of juniper. The benefits of the beer help to find a sustainable access to housing for undocumented migrants. More infos on <a href=\"http://100pap.be/projet.html\">100 PAP</a>."}
+            {"name": "100 PAP", "price": 3.5, "alcool": 6, "description": "A Brussels bitter beer with a touch of juniper. The benefits of the beer help to find a sustainable access to housing for undocumented migrants. More infos on <a href=\"http://100pap.be/projet.html\">100 PAP</a>."},
+            {"name": "Soleil", "price": 3.5, "alcool": 5, "description": "Sweet Brussels White Beer with a fine bitterness."},
+            {"name": "81 Express", "price": 3.5, "alcool": 5, "description": "Brasserie de l'Ermitage new pils."},
+            {"name": "KeelBier", "price": 3.5, "alcool": 6, "description": "A sweet pils with the benefits going to finance the fight against the construction of the new Haren prison"}
         ]
     },
     {
@@ -26,11 +29,8 @@
             {"name": "Barbar", "price": 3.5, "alcool": 8, "description": "The Barbar is a deep blond with a creamy texture and powerful aroma made by the <a href=\"http://www.brasserielefebvre.be/\">Brasserie Lefebvre</a>. For more sweetness, there is a subtle scent of honey that makes this beer unique"},
             {"name": "Cuvee des Trolls", "price": 2.5, "alcool":7, "description":"The Cuvee des Trolls is an strong blond artisan's beer with slight hints of orange and honey. A reference in Belgian beers!"},
             {"name": "Duvel", "price": 3.5, "alcool": 8.5, "description": "The Duvel is a refreshing bitter blond beer with a hoppy taste and a high alcool degree."},
-            {"name": "Grimbergen blonde", "price": 3, "alcool": 6.7, "description": "The Grimbergen is an blond beer, with tan reflections and recognized as a belgian abbey beer. It has a sweet and light fruity aroma."},
             {"name": "Hopus", "price": 3.5, "alcool": 8.3, "description": "Blonde with copper reflections, topped with a generous head, Hopus derives from a secret batch brewed for the marriage of Paul Lefebvre."},
-            {"name": "Julius", "price": 3, "alcool": 8.7, "description": "Julius is a clear, bright golden blond Beer with a creamy head."},
             {"name": "Maredsous Triple", "price": 3.5, "alcool": 10, "description": "Maredsous is an abbey beer, with an oranged blond robe. It has a strong malted taste, with spicy notes."},
-            {"name": "Ramee Ambree", "price": 3.5, "alcool": 7.5, "description": "The amber colour is the result of brewing a pure variety of two-row spring malt, the addition of roasted wheat along with a careful selection of spices in its recipe. La Ramée is a non-filtered high fermentation beer, re-fermented in the bottle, exceptionally easily to digest, with a slightly peppery flavour."},
             {"name": "Triple Karmeliet", "price": 3, "alcool": 8.4, "description": "Bottle conditioned. First brewed 1996; claimed to be based on a recipe from 1679 which used wheat, oat and barley. Tripel Karmeliet is a very refined and complex golden-to-bronze brew with a fantastic creamy head. These characteristics derive not only from the grains used but also from restrained hopping with Styrians and the fruity nature (banana and vanilla) of the house yeast. Aroma has hints of vanilla mixed with citrus aromas. Tripel Karmeliet has not only the lightness and freshness of wheat, but also the creaminess of oats together with a spicy lemony almost quinine dryness."},
             {"name": "Westmalle Triple", "price": 3.5, "alcool": 9.5, "description": "Westmalle Tripel is a golden yellow abbey beer, fermented 3 times. It has a powerful creamy aroma with a light hop and fruity scent with a unique aftertaste. The beer is still made by Westmalle Abbey's monks, which incomes is dedicated to monastic livelihood; which makes this beer one of the only 6 trappist beers in Belgium !"}
         ]
@@ -66,14 +66,13 @@
         "category": "Soft Drinks",
         "content": [
             {"name": "Club Mate", "price": 3},
+            {"name": "Club Mate Granat", "price": 3},
+            {"name": "Club Mate Ice Tea", "price": 3},
             {"name": "Fritz Kola", "price": 2.50},
-            {"name": "Coca Cola", "price": 1.50},
-            {"name": "Coca Cola Light", "price": 1.50},
-            {"name": "Coca Cola Zero", "price": 1.50},
-            {"name": "Fanta", "price": 1.50},
-            {"name": "Sprite", "price": 1.50},
-            {"name": "Ice Tea", "price": 1.50},
-            {"name": "Ice Tea Peach", "price": 1.50},
+            {"name": "Fritz Kola Light", "price": 1.50},
+            {"name": "Fritz Apple", "price": 1.50},
+            {"name": "Fritz Orange", "price": 1.50},
+            {"name": "Fritz Cherry", "price": 1.50},
             {"name": "Water", "price": 1}
         ]
     },
