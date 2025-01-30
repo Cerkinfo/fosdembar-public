@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.19c6c2d2.css",
-    "main.js": "/static/js/main.b71e4611.js",
+    "main.css": "/static/css/main.adf03fd8.css",
+    "main.js": "/static/js/main.f2be6ccc.js",
     "static/media/Plan_Solbosch_public.jpg": "/static/media/Plan_Solbosch_public.90f04db2f5dcdd55368b.jpg",
     "static/media/FOSDEM_beer.png": "/static/media/FOSDEM_beer.579266d66bbb037709c0.png",
     "static/media/trash_bottles.png": "/static/media/trash_bottles.49b358e5f610f49f254a.png",
     "static/media/eco-cup.png": "/static/media/eco-cup.8b3b58920e1a231fb86a.png",
     "static/media/fosdem2025.png": "/static/media/fosdem2025.b504420d7c31d523447f.png",
     "index.html": "/index.html",
-    "main.19c6c2d2.css.map": "/static/css/main.19c6c2d2.css.map",
-    "main.b71e4611.js.map": "/static/js/main.b71e4611.js.map"
+    "main.adf03fd8.css.map": "/static/css/main.adf03fd8.css.map",
+    "main.f2be6ccc.js.map": "/static/js/main.f2be6ccc.js.map"
   },
   "entrypoints": [
-    "static/css/main.19c6c2d2.css",
-    "static/js/main.b71e4611.js"
+    "static/css/main.adf03fd8.css",
+    "static/js/main.f2be6ccc.js"
   ]
 }
