@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.adf03fd8.css",
-    "main.js": "/static/js/main.df078f36.js",
+    "main.js": "/static/js/main.441a2790.js",
     "static/media/Plan_Solbosch_public.jpg": "/static/media/Plan_Solbosch_public.90f04db2f5dcdd55368b.jpg",
     "static/media/FOSDEM_beer.png": "/static/media/FOSDEM_beer.579266d66bbb037709c0.png",
     "static/media/trash_bottles.png": "/static/media/trash_bottles.49b358e5f610f49f254a.png",
@@ -9,10 +9,10 @@
     "static/media/fosdem2025.png": "/static/media/fosdem2025.b504420d7c31d523447f.png",
     "index.html": "/index.html",
     "main.adf03fd8.css.map": "/static/css/main.adf03fd8.css.map",
-    "main.df078f36.js.map": "/static/js/main.df078f36.js.map"
+    "main.441a2790.js.map": "/static/js/main.441a2790.js.map"
   },
   "entrypoints": [
     "static/css/main.adf03fd8.css",
-    "static/js/main.df078f36.js"
+    "static/js/main.441a2790.js"
   ]
 }
