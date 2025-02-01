@@ -1,18 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.adf03fd8.css",
-    "main.js": "/static/js/main.441a2790.js",
+    "main.js": "/static/js/main.1f530668.js",
     "static/media/Plan_Solbosch_public.jpg": "/static/media/Plan_Solbosch_public.90f04db2f5dcdd55368b.jpg",
+    "static/media/cafe-lungo.png": "/static/media/cafe-lungo.c16bdff44ee1f96e9839.png",
+    "static/media/espresso-macchiato.jpg": "/static/media/espresso-macchiato.e29f8eba892f9e4ca026.jpg",
     "static/media/FOSDEM_beer.png": "/static/media/FOSDEM_beer.579266d66bbb037709c0.png",
+    "static/media/thé.jpg": "/static/media/thé.c482be63cc8d86128aa2.jpg",
+    "static/media/americano.jpg": "/static/media/americano.775b3cf5e31d7b6274b6.jpg",
     "static/media/trash_bottles.png": "/static/media/trash_bottles.49b358e5f610f49f254a.png",
+    "static/media/cappucino.jpg": "/static/media/cappucino.98ec6dd0df53b12eafb3.jpg",
+    "static/media/double-expresso.jpg": "/static/media/double-expresso.257a15bedee9d3924c89.jpg",
+    "static/media/chocolat-chaud.jpg": "/static/media/chocolat-chaud.d8b53ada327294b54902.jpg",
     "static/media/eco-cup.png": "/static/media/eco-cup.8b3b58920e1a231fb86a.png",
+    "static/media/espresso.jpg": "/static/media/espresso.348e61c6601abdbfeb07.jpg",
+    "static/media/latte.jpg": "/static/media/latte.7d1dadf0508d35759d41.jpg",
     "static/media/fosdem2025.png": "/static/media/fosdem2025.b504420d7c31d523447f.png",
+    "static/media/ogo_vergnano.png": "/static/media/ogo_vergnano.f44fd3c6c43a45e3f9cc.png",
     "index.html": "/index.html",
     "main.adf03fd8.css.map": "/static/css/main.adf03fd8.css.map",
-    "main.441a2790.js.map": "/static/js/main.441a2790.js.map"
+    "main.1f530668.js.map": "/static/js/main.1f530668.js.map"
   },
   "entrypoints": [
     "static/css/main.adf03fd8.css",
-    "static/js/main.441a2790.js"
+    "static/js/main.1f530668.js"
   ]
 }
